@@ -17,12 +17,12 @@ export default function ProjectCard({
   url,
 }: CardProps) {
   return (
-    <a href={url}>
-      <div className="card card-compact max-w-xs bg-base-200 h-96 border">
+    <a href={url} target="_blank">
+      <div className="card card-compact max-w-xs bg-base-200 border">
         <figure>
           <Image alt="" src={image} className="object-cover h-44" />
         </figure>
-        <div className="card-body overflow-auto">
+        <div className="card-body overflow-auto h-80">
           <h2 className="card-title text-md">{title}</h2>
           <p className="font-light">{children}</p>
           <ul className="card-actions">

@@ -17,10 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
-        {children}
-      </body>
+      <div className="flex justify-center max-w-screen-md">
+        <body className={inter.className}>
+          <Navbar />
+          {children}
+        </body>
+      </div>
     </html>
   );
 }
