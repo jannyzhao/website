@@ -7,28 +7,32 @@ import goFishing from "@/public/images/gofishing-demo.gif";
 
 export default function Projects() {
   return (
-    <div className="flex items-center justify-center p-4 md:p-24 gap-4 flex-col md:flex-row">
+    <div className="flex items-center justify-center p-4 md:p-16 lg:p-24 gap-4 flex-col md:flex-row">
       <ProjectCard
         image={rizzume}
         title="Rizzume"
         badges={["React", "Tailwind", "TypeScript", "Vercel"]}
         url="https://rizzume.vercel.app/"
       >
-        <b className="font-heavy">DeveloperWeek CloudX Hackathon Winner</b>{" "}
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum alias ad
-        tenetur minus natus ratione quasi omnis nisi consectetur quod, quo
-        repellendus dolor velit sed hic corrupti! Harum, natus hic?
+        <b className="font-semibold">
+          DeveloperWeek CloudX Hackathon Challenge Winner - 2024
+        </b>{" "}
+        <p className="mt-4">
+          Ever wondered how your resume compares to the job description of the
+          role that you&apos;re interested in? In other words, how much{" "}
+          <i>rizz</i> does your resume have? Find out using Rizzume!
+        </p>
       </ProjectCard>
 
       <ProjectCard
         image={budgetMe}
-        title="BudgetMe"
-        badges={["React", "Tailwind", "TypeScript", "Vercel"]}
+        title="Budget Me"
+        badges={["React", "MongoDB", "Express.js", "Node.js"]}
         url="https://budgetme.onrender.com/"
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum alias ad
-        tenetur minus natus ratione quasi omnis nisi consectetur quod, quo
-        repellendus dolor velit sed hic corrupti! Harum, natus hic?
+        How do you manage your money? With Budget Me, you can easily manage your
+        finances. When you input your income and expenses, you will be able to
+        see a chart of the areas where you&apos;re spending the most money.
       </ProjectCard>
 
       <ProjectCard
@@ -37,9 +41,13 @@ export default function Projects() {
         badges={["JavaScript", "HTML", "CSS"]}
         url={"https://jannyzhao.github.io/go-fishing/"}
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum alias ad
-        tenetur minus natus ratione quasi omnis nisi consectetur quod, quo
-        repellendus dolor velit sed hic corrupti! Harum, natus hic?
+        Inspired by Club Penguin&apos;s fishing game, players can try their best
+        to catch as much fish as possible. Feel a rush of nostalgia as you
+        compete in this adorable fishing game.{" "}
+        <p className="mt-4">
+          <b className="font-semibold">Hint:</b> The small fish are fast but
+          worth more!
+        </p>
       </ProjectCard>
     </div>
   );
