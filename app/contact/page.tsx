@@ -1,6 +1,5 @@
-import jannyPhoto from "@/public/images/janny-photo.png";
-import Image from "next/image";
 import Link from "next/link";
+import { BeakerIcon } from "@heroicons/react/24/solid";
 
 export default function Contact() {
   return (
@@ -9,16 +8,13 @@ export default function Contact() {
         <div className="gap-4 text-center">
           <h1 className="font-sans text-xl gap-4 mb-4">Get in touch!</h1>
           <p className="mb-4">
-            <Link href="https://www.linkedin.com/in/jannyzhao/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/jannyzhao/"
+              target="_blank"
+              className="link link-success"
+            >
               Linkedin
             </Link>
-          </p>
-          <p>
-            Feel free to checkout my projects{" "}
-            <Link href="/projects" className="link link-success">
-              here
-            </Link>
-            .
           </p>
         </div>
       </div>
