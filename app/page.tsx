@@ -1,5 +1,6 @@
 import jannyPhoto from "@/public/images/janny-photo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -25,9 +26,9 @@ export default function Home() {
           </p>
           <p>
             Feel free to checkout my projects{" "}
-            <a href="/projects" className="link link-success">
+            <Link href="/projects" className="link link-success">
               here
-            </a>
+            </Link>
             .
           </p>
         </div>
