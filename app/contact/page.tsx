@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { BeakerIcon } from "@heroicons/react/24/solid";
 
 export default function Contact() {
   return (

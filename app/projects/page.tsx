@@ -21,6 +21,7 @@ export default function Projects() {
           Ever wondered how your resume compares to the job description of the
           role that you&apos;re interested in? In other words, how much{" "}
           <i>rizz</i> does your resume have? Find out using Rizzume!
+          <p className="mt-5">Check it out! ={">"}</p>
         </p>
       </ProjectCard>
 
@@ -33,6 +34,7 @@ export default function Projects() {
         How do you manage your money? With Budget Me, you can easily manage your
         finances. When you input your income and expenses, you will be able to
         see a chart of the areas where you&apos;re spending the most money.
+        <p className="mt-5">Check it out! ={">"}</p>
       </ProjectCard>
 
       <ProjectCard
@@ -48,6 +50,7 @@ export default function Projects() {
           <b className="font-semibold">Hint:</b> The small fish are fast but
           worth more!
         </p>
+        <p className="mt-5">Check it out! ={">"}</p>
       </ProjectCard>
     </div>
   );
