@@ -5,7 +5,9 @@ export default function Navbar() {
     <div>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <a className="btn btn-ghost lowercase text-lg">Janny Zhao</a>
+          <Link href="/" className="btn btn-ghost lowercase text-lg">
+            Janny Zhao
+          </Link>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 lowercase">
