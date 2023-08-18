@@ -1,9 +1,9 @@
 import Image from "next/image";
-import rizzume from "@/public/images/rizzume.png";
-import budgetMe from "@/public/images/budget-me.png";
+import rizzume from "@/public/images/rizzume-demo.gif";
+import budgetMe from "@/public/images/budgetme-demo.gif";
 import ProjectCard from "@/components/ProjectCard";
 import PictureCard from "@/components/PictureCard";
-import goFishing from "@/public/images/gf-thumbnail.png";
+import goFishing from "@/public/images/gofishing-demo.gif";
 
 export default function Projects() {
   return (
