@@ -17,23 +17,25 @@ export default function ProjectCard({
   url,
 }: CardProps) {
   return (
-    <a href={url} target="_blank">
-      <div className="card card-compact max-w-xs bg-base-200 border">
-        <figure>
-          <Image alt="" src={image} className="object-cover h-44" />
-        </figure>
-        <div className="card-body overflow-auto h-80">
-          <h2 className="card-title text-md">{title}</h2>
-          <p className="font-light">{children}</p>
-          <ul className="card-actions">
-            {badges.map((badge) => (
-              <li className="badge badge-outline" key={badge}>
-                {badge}
-              </li>
-            ))}
-          </ul>
+    <div>
+      <a href={url} target="_blank">
+        <div className="card card-compact max-w-xs bg-base-200 border">
+          <figure>
+            <Image alt="" src={image} className="object-cover h-44" />
+          </figure>
+          <div className="card-body overflow-auto h-80">
+            <h2 className="card-title text-md">{title}</h2>
+            <p className="font-light">{children}</p>
+            <ul className="card-actions">
+              {badges.map((badge) => (
+                <li className="badge badge-outline" key={badge}>
+                  {badge}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
   );
 }
