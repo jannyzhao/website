@@ -12,7 +12,6 @@ export default function Home() {
               <Image alt="janny-photo" src={jannyPhoto} />
             </div>
           </div>
-          {/* <span className="badge">Software Engineer</span> */}
         </div>
         <div className="gap-4 text-center">
           <h1 className="font-sans text-xl gap-4 mb-3">
@@ -31,10 +30,6 @@ export default function Home() {
             </Link>
             .
           </p>
-          <p>Connect with me!</p>
-          <div className="flex flex-row justify-center items-center gap-5">
-            
-          </div>
         </div>
       </div>
     </div>

@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/images/janny-photo.png" />
+      </head>
       <div className="flex justify-center max-w-screen-md">
         <body className={inter.className}>
           <Navbar />

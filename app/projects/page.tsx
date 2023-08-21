@@ -1,8 +1,6 @@
-import Image from "next/image";
 import rizzume from "@/public/images/rizzume-demo.gif";
 import budgetMe from "@/public/images/budgetme-demo.gif";
 import ProjectCard from "@/components/ProjectCard";
-import PictureCard from "@/components/PictureCard";
 import goFishing from "@/public/images/gofishing-demo.gif";
 
 export default function Projects() {
@@ -21,8 +19,8 @@ export default function Projects() {
           Ever wondered how your resume compares to the job description of the
           role that you&apos;re interested in? In other words, how much{" "}
           <i>rizz</i> does your resume have? Find out using Rizzume!
-          <p className="mt-5">Check it out! ={">"}</p>
         </p>
+        <button className=" mt-4 btn btn-xs btn-neutral">Check it out!</button>
       </ProjectCard>
 
       <ProjectCard
@@ -31,10 +29,13 @@ export default function Projects() {
         badges={["React", "MongoDB", "Express.js", "Node.js"]}
         url="https://budgetme.onrender.com/"
       >
-        How do you manage your money? With Budget Me, you can easily manage your
-        finances. When you input your income and expenses, you will be able to
-        see a chart of the areas where you&apos;re spending the most money.
-        <p className="mt-5">Check it out! ={">"}</p>
+        <p>
+          How do you manage your money? With Budget Me, you can easily manage
+          your finances. When you input your income and expenses, you will be
+          able to see a chart of the areas where you&apos;re spending the most
+          money.
+        </p>
+        <button className=" mt-4 btn btn-xs btn-neutral">Check it out!</button>
       </ProjectCard>
 
       <ProjectCard
@@ -50,7 +51,7 @@ export default function Projects() {
           <b className="font-semibold">Hint:</b> The small fish are fast but
           worth more!
         </p>
-        <p className="mt-5">Check it out! ={">"}</p>
+        <button className=" mt-4 btn btn-xs btn-neutral">Check it out!</button>
       </ProjectCard>
     </div>
   );
