@@ -20,12 +20,10 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="/images/janny-photo.png" />
       </head>
-      <div className="flex justify-center max-w-screen-md">
-        <body className={inter.className}>
-          <Navbar />
-          {children}
-        </body>
-      </div>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

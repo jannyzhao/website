@@ -14,7 +14,7 @@ export default function Projects() {
       >
         <b className="font-semibold">
           DeveloperWeek CloudX Hackathon Challenge Winner - 2024
-        </b>{" "}
+        </b>
         <p className="mt-4">
           Ever wondered how your resume compares to the job description of the
           role that you&apos;re interested in? In other words, how much{" "}
@@ -42,11 +42,11 @@ export default function Projects() {
         image={goFishing}
         title="Go Fishing"
         badges={["JavaScript", "HTML", "CSS"]}
-        url={"https://jannyzhao.github.io/go-fishing/"}
+        url="https://jannyzhao.github.io/go-fishing/"
       >
         Inspired by Club Penguin&apos;s fishing game, players can try their best
         to catch as much fish as possible. Feel a rush of nostalgia as you
-        compete in this adorable fishing game.{" "}
+        compete in this adorable fishing game.
         <p className="mt-4">
           <b className="font-semibold">Hint:</b> The small fish are fast but
           worth more!

@@ -25,7 +25,7 @@ export default function ProjectCard({
           </figure>
           <div className="card-body overflow-auto h-80">
             <h2 className="card-title text-md">{title}</h2>
-            <p className="font-light">{children}</p>
+            <div className="font-light">{children}</div>
             <ul className="card-actions">
               {badges.map((badge) => (
                 <li className="badge badge-outline" key={badge}>

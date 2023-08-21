@@ -1,21 +1,20 @@
-import Link from "next/link";
 
 export default function Navbar() {
   return (
     <div>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <Link href="/" className="btn btn-ghost lowercase text-lg">
+          <a href="/" className="btn btn-ghost lowercase text-lg">
             Janny Zhao
-          </Link>
+          </a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 lowercase">
             <li>
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
-              <Link href="/projects">Projects</Link>
+              <a href="/projects">Projects</a>
             </li>
           </ul>
         </div>
