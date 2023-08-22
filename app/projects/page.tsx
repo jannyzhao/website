@@ -20,7 +20,6 @@ export default function Projects() {
           role that you&apos;re interested in? In other words, how much{" "}
           <i>rizz</i> does your resume have? Find out using Rizzume!
         </p>
-        <button className=" mt-4 btn btn-xs btn-neutral">Check it out!</button>
       </ProjectCard>
 
       <ProjectCard
@@ -35,7 +34,6 @@ export default function Projects() {
           able to see a chart of the areas where you&apos;re spending the most
           money.
         </p>
-        <button className=" mt-4 btn btn-xs btn-neutral">Check it out!</button>
       </ProjectCard>
 
       <ProjectCard
@@ -51,7 +49,6 @@ export default function Projects() {
           <b className="font-semibold">Hint:</b> The small fish are fast but
           worth more!
         </p>
-        <button className=" mt-4 btn btn-xs btn-neutral">Check it out!</button>
       </ProjectCard>
     </div>
   );

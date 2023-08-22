@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
 
 interface CardProps {
   children: React.ReactNode;
@@ -24,7 +23,12 @@ export default function ProjectCard({
             <Image alt="" src={image} className="object-cover h-44" />
           </figure>
           <div className="card-body overflow-auto h-80">
-            <h2 className="card-title text-md">{title}</h2>
+            <h2 className="card-title text-md">
+              {title}
+              <button className="flex justify-center btn btn-xs bg-base-300">
+                Check it out
+              </button>
+            </h2>
             <div className="font-light">{children}</div>
             <ul className="card-actions">
               {badges.map((badge) => (
