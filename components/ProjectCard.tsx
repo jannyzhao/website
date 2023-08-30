@@ -23,7 +23,7 @@ export default function ProjectCard({
             <Image alt="" src={image} className="object-cover h-44" />
           </figure>
           <div className="card-body overflow-auto h-80">
-            <h2 className="card-title text-md">
+            <h2 className="card-title flex justify-between text-md">
               {title}
               <button className="flex justify-center btn btn-xs bg-base-300">
                 Check it out
